@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+
+  <VideoView
+      android:id="@+id/videoView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"/>
+  <TextView
+      android:id="@+id/connectionStatus"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:textColor="#fff"
+      android:textSize="20sp"
+      android:text="welcome"/>
+  <Button
+      android:id="@+id/connectBtn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="test"
+      android:layout_centerHorizontal="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginBottom="30sp"
+      android:visibility="gone"/>
+</RelativeLayout>
